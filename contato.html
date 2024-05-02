@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+   <title>contato</title>
+   <link rel="stylesheet" href="reset.css">
+   <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+<header>
+    <div class="caixa"></div>
+    <h1><img src="logo.png"></h1>
+    <nav>
+    <ul>
+        <li><a href="index.html">home</a></li>
+        <li><a href="produtos.html">produto</a></li>
+        <li><a href="contato.html">contato</a></li>
+    </ul>
+    </nav>
+    
+</header>
+<main>
+    <form>
+        <label for="nomecompleto">Nome Completo</label>
+        <input id="nomecompleto" required type="text">
+
+        <label for="email">Email</label>
+        <input id="email" placeholder="seuemail@email.com" required type="email">
+
+        <label for="telefone">Telefone</label>
+        <input id="telefone" placeholder="(xx) xxxx-xxxx" required type="tel">
+
+        <label for="mensagem">Mensagem</label>
+        <textarea cols="70" required rows="10" id="mensagem"></textarea>
+
+    <div>
+
+        <p>Como prefere nosso contato?</p>
+        <label for="radio-email">Email</label>
+        <input type="radio" name="contato" value="email" id="radio-email">
+
+        <label for="radio-telefone">Telefone</label>
+        <input type="radio" name="contato" value="telefone" id="radio-telefone">
+
+        <label for="radio-whatsapp">Whatsapp</label>
+        <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">
+        
+    </div>
+    <label>
+        <input type="checkbox" name="contato" checked id="contato">
+        Gostaria de receber nosso contato?
+    </label>
+
+    <div>
+    <p>Qual horario prefere ser atendido</p>
+    <select>
+        <option>Manhã</option>
+        <option>Tarde</option>
+        <option>Noite</option>
+    </select>
+    </div>
+
+       <input type="submit"class=enviar value="Enviar Formulario">
+    </form>
+</main>
+<footer>
+    <img src="logo-branco.png">
+    <p>&copy;copyright Barbearia Alura - Desenvolvido por: Nataly</p>
+</footer>
+    </body>
+</html>

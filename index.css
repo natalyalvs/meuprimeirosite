@@ -1,0 +1,66 @@
+body {
+  background-color: black;
+  color: whitesmoke;
+}
+
+h1 {
+  color: f6f6f6;
+  text-align: center;
+}
+h2{
+  color: thistle;
+  font-style: italic;
+  font-size: larger;
+
+}
+
+p {
+  text-align: center;
+}
+
+a {
+  background-color: thistle;
+  border: rgba(3, 8, 4, 9);
+  color: rgb(8, 8, 8);
+  padding: 5px 5px;
+  text-align: start;
+  text-decoration: rgb(0, 0, 0);
+  display: -moz-box;
+  font-size: 15px;
+}
+
+#imagem_principal {
+  width: 78%;
+  height: 400px;
+  margin-left: 10%;
+  margin-right: 15%;
+  border-radius: 10%;
+}
+
+div {
+  margin-left: 40%;
+  margin-right: 40%;
+  padding: 10px;
+}
+
+.itens {
+  font-style: italic;
+  font-size: large;
+}
+#conteudo_principal {
+  margin: 1%;
+  background-color: black;
+}
+#beneficios{
+  margin-left: 5%;
+  margin-right: 9%;
+  padding: 5px;
+}
+ul{
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 10%;
+}
+h2{
+  text-align: center;
+}
